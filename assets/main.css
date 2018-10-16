@@ -1,0 +1,37 @@
+@font-face {
+  font-family: byekan;
+  src: url(../static/fonts/byekan.ttf);
+}
+@font-face {
+  font-family: BKoodakBold;
+  src: url(../static/fonts/BKoodakBold.ttf);
+}
+@font-face {
+  font-family: iranYekan;
+  src: url(../static/fonts/IRANYekanMobileBold.ttf);
+}
+@font-face {
+  font-family: BMorvarid;
+  src: url(../static/fonts/BMorvarid.ttf);
+}
+
+html{
+  /*font-family: byekan;*/
+}
+.custom-font{
+  font-family: BMorvarid !important;
+
+}
+.text_align_right{
+  text-align: right !important;
+}
+
+
+
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
